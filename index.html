@@ -18,19 +18,29 @@
   </style>
 </head>
 <body>
-  
-  <div>
-    <img src="images/logo.svg" alt="Base Apparel Logo">
-  </div>
+  <main>
+    <div class="wrapper">
+      <div id="logo-wrapper">
+        <img src="images/logo.svg" alt="Base Apparel Logo" id="logo">
+      </div>
 
-  <h1><span>We're</span> coming soon</h1>
+      <div id="mobile-hero">
+        <img src="images/hero-mobile.jpg" alt="Woman with orange top">
+      </div>
 
-  <p>Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <h1><span>We're</span> coming soon</h1>
 
-  <input type="email" aria-label="email" placeholder="Email Address" autofocus>
-  <span role="button" tabindex="0" onclick="validateEmail()"><img src="images/icon-arrow.svg" alt="Arrow"></span>
-  
+      <p>Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+      <input type="email" aria-label="email" placeholder="Email Address" autofocus>
+      <span role="button" tabindex="0" onclick="validateEmail()"><img src="images/icon-arrow.svg" alt="Arrow" id="arrow"></span>
+    </div>
+
+    <div id="desktop-hero">
+      <img src="images/hero-desktop.jpg" alt="Woman with orange top">
+    </div>
+  </main>  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
