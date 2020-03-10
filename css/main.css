@@ -76,8 +76,8 @@ input[type="email"] {
     border-radius: 35px;
     border: 1px solid var(--palered);
     padding: 20px;
-    width: 260px;
-    margin: 0 auto;
+    width: calc(80% - 30px);
+    margin-left: 10px;
     position: absolute;
     top: 0;
     left: 20px;
@@ -97,13 +97,13 @@ input::placeholder {
     width: 65px;
     position: absolute;
     top: 0;
-    right: 20px;
+    right: 30px;
     bottom: 0;
     vertical-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 3px 3px 10px var(--palered);
+    box-shadow: 1px 8px 20px hsla(0, 36%, 70%, 0.4);
     cursor: pointer;
 }
 
